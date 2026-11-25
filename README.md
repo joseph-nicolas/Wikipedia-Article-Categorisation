@@ -21,10 +21,17 @@ Traditional machine learning models showed minimal improvement from hyperparamet
 
 ## Images
 
-![Balanced Category Distribution](assets/articles_bar_chart.png)
-
-![Word Cloud of Training Text](assets/word_cloud.png)
-
-![Model F1-Score Comparison](assets/f1_scores_barplot.png)
-
-![Confusion Matrices - Naive Bayes vs BiLSTM](assets/confusion_matrices.png)
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="margin: 10px;">
+    <img src="assets/articles_bar_chart.png" alt="Balanced Category Distribution" style="width: 250px; height: auto;">
+  </div>
+  <div style="margin: 10px;">
+    <img src="assets/word_cloud.png" alt="Word Cloud of Training Text" style="width: 250px; height: auto;">
+  </div>
+  <div style="margin: 10px;">
+    <img src="assets/f1_scores_barplot.png" alt="Model F1-Score Comparison" style="width: 250px; height: auto;">
+  </div>
+  <div style="margin: 10px;">
+    <img src="assets/confusion_matrices.png" alt="Confusion Matrices - Naive Bayes vs BiLSTM" style="width: 250px; height: auto;">
+  </div>
+</div>

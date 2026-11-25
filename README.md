@@ -2,12 +2,6 @@
 
 This project implements and compares four text classification models on Wikipedia articles using traditional machine learning and deep learning approaches. Four classifiers are evaluated on a balanced 500K article dataset across five categories: Science, History, Sports, Arts, and Geography. The research systematically tests traditional algorithms including Naive Bayes and Support Vector Machines alongside modern neural network architectures, with BiLSTM and DistilBERT, to determine the most effective approach for article categorization tasks. DistilBERT achieves highest accuracy at 93.56% while maintaining practical performance with reasonable compute requirements.
 
-## Repository Structure
-
-- **notebook.ipynb**: Main project notebook with all implementation code and training procedures
-- **assets/**: Visualization outputs including bar charts, word clouds, and confusion matrices
-- **requirements.txt**: Python dependencies
-
 ## Models Compared
 
 | Model | Type | Accuracy | Precision | Recall | F1-Score |

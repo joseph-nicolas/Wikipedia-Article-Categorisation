@@ -21,17 +21,22 @@ Traditional machine learning models showed minimal improvement from hyperparamet
 
 ## Images
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="margin: 10px;">
-    <img src="assets/articles_bar_chart.png" alt="Balanced Category Distribution" style="width: 250px; height: auto;">
-  </div>
-  <div style="margin: 10px;">
-    <img src="assets/word_cloud.png" alt="Word Cloud of Training Text" style="width: 250px; height: auto;">
-  </div>
-  <div style="margin: 10px;">
-    <img src="assets/f1_scores_barplot.png" alt="Model F1-Score Comparison" style="width: 250px; height: auto;">
-  </div>
-  <div style="margin: 10px;">
-    <img src="assets/confusion_matrices.png" alt="Confusion Matrices - Naive Bayes vs BiLSTM" style="width: 250px; height: auto;">
-  </div>
-</div>
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">
+      <img src="assets/articles_bar_chart.png" alt="Balanced Category Distribution" style="max-width: 100%; height: auto;">
+    </td>
+    <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">
+      <img src="assets/word_cloud.png" alt="Word Cloud of Training Text" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">
+      <img src="assets/f1_scores_barplot.png" alt="Model F1-Score Comparison" style="max-width: 100%; height: auto;">
+    </td>
+    <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">
+      <img src="assets/confusion_matrices.png" alt="Confusion Matrices - Naive Bayes vs BiLSTM" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
+
